@@ -271,19 +271,6 @@ VD/Data/student_performance_finalscore.csv
 
 ---
 
-## Status Project
-
-| Komponen | Status |
-|---|---|
-| Notebook Analysis | Selesai |
-| Data Cleaning | Selesai |
-| EDA & Insight | Selesai |
-| Master Matrix | Selesai |
-| Streamlit Dashboard | Siap digunakan / UI refinement |
-| Laporan Tahap 2 | On Progress |
-
----
-
 ## Kesimpulan
 
 Project ini menunjukkan proses lengkap dari data mentah menjadi insight visual. Hasil analisis menunjukkan bahwa performa akademik mahasiswa berkaitan dengan kombinasi faktor akademik, psikologis, dan dukungan belajar. Dashboard Streamlit berfungsi sebagai media eksplorasi interaktif untuk memahami pola performa dan kelompok mahasiswa berisiko secara lebih cepat dan berbasis data.
