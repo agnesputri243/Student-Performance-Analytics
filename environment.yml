@@ -1,0 +1,41 @@
+name: vd-env
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pip
+  - ipykernel
+  - jupyterlab
+  - notebook
+
+  # Core data analysis
+  - pip:
+      - pandas
+      - numpy
+      - scipy
+      - scikit-learn
+      - statsmodels
+
+      # Visualization for notebook and dashboard
+      - matplotlib
+      - seaborn
+      - plotly
+      - kaleido
+      - missingno
+
+      # Streamlit dashboard
+      - streamlit
+      - streamlit-option-menu
+      - streamlit-extras
+
+      # Excel, notebook, and export utilities
+      - openpyxl
+      - xlsxwriter
+      - nbformat
+      - nbconvert
+      - pyarrow
+
+      # Project utilities
+      - python-dotenv
