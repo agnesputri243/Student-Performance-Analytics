@@ -1636,7 +1636,7 @@ def render_header(data: pd.DataFrame, dataset_path: Optional[Path], risk_mode: s
                 <strong>Anggota Kelompok:</strong><br>
                 2300018407 – Agnes Putri Alfalahi<br>
                 2300018437 – Alya Aulia Azzahra<br>
-                2300018444 – Caressa Suchi Dabrila
+                2300018444 – Caress Suchi Dabrila
             </div>
             <div class="badge-row">
                 <span class="badge">📊 {len(data):,} students</span>

@@ -19,7 +19,7 @@ Dashboard interaktif berbasis **Streamlit** untuk menganalisis performa akademik
 |---|---|
 | 2300018407 | Agnes Putri Alfalahi |
 | 2300018437 | Alya Aulia Azzahra |
-| 2300018444 | Caressa Suchi Dabrila |
+| 2300018444 | Caress Suchi Dabrila |
 
 ---
 
