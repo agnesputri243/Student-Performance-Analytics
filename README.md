@@ -17,7 +17,6 @@ Dashboard dirancang untuk membantu dosen, dosen wali, dan pengelola program stud
 
 - Dashboard : Public (dapat diakses tanpa login)
 - Repository : Anyone with the link
-
 Seluruh tautan telah diuji dan dapat diakses menggunakan browser tanpa memerlukan proses autentikasi sehingga mendukung proses verifikasi project.
 ---
 
