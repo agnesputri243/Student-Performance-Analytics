@@ -200,46 +200,6 @@ Visualisasi dipilih berdasarkan tipe data dan tujuan komunikasi, seperti histogr
 
 ---
 
-## Cara Menjalankan Project
-
-### 1. Masuk ke folder project
-
-```bash
-cd VD
-```
-
-### 2. Buat environment Conda
-
-```bash
-conda env create -f environment.yml
-```
-
-### 3. Aktifkan environment
-
-```bash
-conda activate vd-env
-```
-
-### 4. Jalankan notebook
-
-```bash
-jupyter lab
-```
-
-Buka:
-
-```text
-Notebooks/Analysis.ipynb
-```
-
-### 5. Jalankan dashboard Streamlit
-
-```bash
-streamlit run Streamlit/app.py
-```
-
----
-
 ## Auto-Search Dataset
 
 Notebook dan dashboard sudah dibuat portable. Dataset akan dicari otomatis dari beberapa lokasi berikut:
