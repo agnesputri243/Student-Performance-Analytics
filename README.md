@@ -4,7 +4,7 @@ Dashboard interaktif berbasis **Streamlit** untuk menganalisis performa akademik
 
 **Akses Project**:
 - Dashboard Streamlit bisa diakses pada [link berikut](https://student-performance-analytics-hdtmbaukzapp62d7hnohbgm.streamlit.app/)
-- Dan karena keterbatasan upload di Github seluruh file lengkap proyek ini bisa diakses pada [link berikut](https://drive.google.com/drive/folders/1bZL_NzG7eIIP3DeibbM5n8qbSaJQPy69?usp=sharing)
+- Karena keterbatasan upload di GitHub seluruh file lengkap proyek ini bisa diakses pada Google Drive dan diakses pada [link berikut](https://drive.google.com/drive/folders/1bZL_NzG7eIIP3DeibbM5n8qbSaJQPy69?usp=sharing)
 ---
 
 ## Identitas
