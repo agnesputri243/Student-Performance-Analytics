@@ -2,7 +2,7 @@
 
 Dashboard interaktif berbasis **Streamlit** untuk menganalisis performa akademik mahasiswa menggunakan dataset `student_performance_finalscore.csv`. Proyek ini dibuat untuk tugas **Visualisasi Data – Kelas B** dengan fokus pada data cleaning, EDA, statistik deskriptif, visual encoding, storytelling, dan dashboard interaktif.
 
-**Noted**:
+**Akses Project**:
 - Dashboard Streamlit bisa diakses pada [link berikut](https://student-performance-analytics-hdtmbaukzapp62d7hnohbgm.streamlit.app/)
 - Dan karena keterbatasan upload di Github seluruh file lengkap proyek ini bisa diakses pada [link berikut](https://drive.google.com/drive/folders/1bZL_NzG7eIIP3DeibbM5n8qbSaJQPy69?usp=sharing)
 ---
