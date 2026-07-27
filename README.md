@@ -1,10 +1,24 @@
 # Student Performance Analytics Dashboard
 
-Dashboard interaktif berbasis **Streamlit** untuk menganalisis performa akademik mahasiswa menggunakan dataset `student_performance_finalscore.csv`. Proyek ini dibuat untuk tugas **Visualisasi Data – Kelas B** dengan fokus pada data cleaning, EDA, statistik deskriptif, visual encoding, storytelling, dan dashboard interaktif.
+**Student Performance Analytics Dashboard** merupakan dashboard interaktif berbasis **Python** dan **Streamlit** yang dikembangkan untuk menganalisis performa akademik mahasiswa menggunakan dataset `student_performance_finalscore.csv`. Project ini disusun sebagai tugas akhir mata kuliah **Visualisasi Data – Kelas B** dengan menerapkan tahapan analisis data secara end-to-end, mulai dari data cleaning, Exploratory Data Analysis (EDA), statistik deskriptif, visual encoding, storytelling, hingga pembangunan dashboard interaktif.
 
-**Akses Project**:
-- Dashboard Streamlit bisa diakses pada [link berikut](https://student-performance-analytics-hdtmbaukzapp62d7hnohbgm.streamlit.app/)
-- Karena keterbatasan upload di GitHub seluruh file lengkap proyek ini bisa diakses pada Google Drive dan diakses pada [link berikut](https://drive.google.com/drive/folders/1bZL_NzG7eIIP3DeibbM5n8qbSaJQPy69?usp=sharing)
+Dashboard dirancang untuk membantu dosen, dosen wali, dan pengelola program studi dalam memantau performa akademik mahasiswa, mengidentifikasi tingkat risiko akademik, memahami faktor-faktor yang memengaruhi **Final Score**, serta mendukung proses pengambilan keputusan yang lebih cepat, objektif, dan berbasis data. Dataset yang digunakan bersifat **cross-sectional**, sehingga tidak memiliki rentang waktu pengamatan tertentu dan berfokus pada kondisi mahasiswa pada satu periode pengamatan.
+
+## **Akses Project**:
+
+- **Dashboard Streamlit (Public)**  
+  https://student-performance-analytics-hdtmbaukzapp62d7hnohbgm.streamlit.app/
+
+- **Repository Lengkap Project (Google Drive)**  
+  Seluruh berkas project, termasuk dataset mentah, dataset hasil cleaning, notebook analisis, source code dashboard, dokumentasi, dan file pendukung lainnya tersedia pada Google Drive berikut karena ukuran project melebihi batas unggah GitHub.
+  https://drive.google.com/drive/folders/1bZL_NzG7eIIP3DeibbM5n8qbSaJQPy69?usp=sharing
+
+ ## **Status Akses**
+
+- Dashboard : Public (dapat diakses tanpa login)
+- Repository : Anyone with the link
+
+Seluruh tautan telah diuji dan dapat diakses menggunakan browser tanpa memerlukan proses autentikasi sehingga mendukung proses verifikasi project.
 ---
 
 ## Identitas
@@ -95,16 +109,16 @@ VD/
 ## File Utama
 
 | File | Fungsi |
-|---|---|
+|------|---------|
 | `Data/student_performance_finalscore.csv` | Dataset mentah |
 | `Data/cleaned_student_performance.csv` | Dataset hasil cleaning |
 | `Notebooks/Analysis.ipynb` | Notebook analisis end-to-end |
-| `Streamlit/app.py` | Dashboard interaktif |
-| `Streamlit/requirements.txt` | Dependency Python untuk Streamlit |
-| `Reports/insight_eda_student_performance.txt` | Ringkasan insight hasil EDA |
-| `Reports/master_matrix_tipe_data.xlsx` | Matrix tipe data dan strategi visual |
-| `assets/eda_charts/` | Kumpulan chart HTML hasil EDA |
+| `Streamlit/app.py` | Source code utama dashboard |
+| `Streamlit/requirements.txt` | Daftar library Python yang dibutuhkan |
 | `environment.yml` | Konfigurasi environment Conda |
+| `README.md` | Dokumentasi project |
+| `Reports/insight_eda_student_performance.txt` | Ringkasan insight EDA |
+| `Reports/master_matrix_tipe_data.xlsx` | Matriks tipe data dan strategi visual |
 
 ---
 
@@ -133,7 +147,12 @@ Notebooks/Analysis.ipynb
 
 ## Ringkasan Dataset
 
-Dataset berisi **8.000 data mahasiswa** dengan fitur akademik, psikologis, gaya hidup, sosial-ekonomi, dan nilai akhir.
+Dataset terdiri atas **8.000 data mahasiswa** dengan **42 atribut** yang mencakup informasi demografi, kebiasaan belajar, kehadiran, kondisi psikologis, gaya hidup, serta nilai akhir mahasiswa.
+
+Dataset yang digunakan terdiri dari:
+
+- `student_performance_finalscore.csv` → Dataset mentah
+- `cleaned_student_performance.csv` → Dataset hasil proses data cleaning
 
 Target utama analisis:
 
@@ -147,7 +166,8 @@ Hasil cleaning utama:
 |---|---:|
 | Missing value | 0 |
 | Duplicate data | 0 |
-| Baris setelah cleaning | 8.000 |
+| Baris data | 8.000 |
+| Kolom data | 42 |
 | Dataset bersih | `cleaned_student_performance.csv` |
 
 ---
@@ -231,9 +251,11 @@ VD/Data/student_performance_finalscore.csv
 - Streamlit
 - Jupyter Notebook
 - Conda
+- Git
+- GitHub
 
 ---
 
 ## Kesimpulan
 
-Project ini menunjukkan proses lengkap dari data mentah menjadi insight visual. Hasil analisis menunjukkan bahwa performa akademik mahasiswa berkaitan dengan kombinasi faktor akademik, psikologis, dan dukungan belajar. Dashboard Streamlit berfungsi sebagai media eksplorasi interaktif untuk memahami pola performa dan kelompok mahasiswa berisiko secara lebih cepat dan berbasis data.
+Project ini menunjukkan implementasi proses analisis data secara end-to-end, dimulai dari data mentah, proses data cleaning, Exploratory Data Analysis (EDA), visual encoding, hingga pembangunan dashboard interaktif berbasis Streamlit. Hasil analisis menunjukkan bahwa performa akademik mahasiswa dipengaruhi oleh kombinasi faktor akademik, psikologis, dan gaya hidup. Dashboard yang dikembangkan mampu membantu stakeholder dalam memantau kondisi akademik mahasiswa, mengidentifikasi kelompok mahasiswa berisiko, serta mendukung pengambilan keputusan yang lebih cepat, objektif, dan berbasis data.
